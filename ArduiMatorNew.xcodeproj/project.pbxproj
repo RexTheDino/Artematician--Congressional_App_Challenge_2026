@@ -1,0 +1,627 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EF1EE4D8307423E000028D9D /* AnimatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1EE4D7307423E000028D9D /* AnimatorView.swift */; };
+		EF1EE4DC30742C7A00028D9D /* MasterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF1EE4DB30742C7A00028D9D /* MasterView.swift */; };
+		EF2DE6583058BEAA00963715 /* File.metal in Sources */ = {isa = PBXBuildFile; fileRef = EF2DE6573058BEAA00963715 /* File.metal */; };
+		EF2DE6E3305E3FFD00963715 /* ObjectSwitcherView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF2DE6E2305E3FFD00963715 /* ObjectSwitcherView.swift */; };
+		EF5198423076BC6500E2EECA /* ColorGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5198413076BC6500E2EECA /* ColorGraphView.swift */; };
+		EF5198443077212600E2EECA /* LightGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5198433077212600E2EECA /* LightGraphView.swift */; };
+		EF5198463078339500E2EECA /* CrossSecGraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EF5198453078339500E2EECA /* CrossSecGraphView.swift */; };
+		EFAE0D253064C14B00AC6E44 /* MetalBridge.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFAE0D243064C14B00AC6E44 /* MetalBridge.swift */; };
+		EFE8D98F3037C94A002B3C89 /* ArduiMatorNewApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE8D98E3037C94A002B3C89 /* ArduiMatorNewApp.swift */; };
+		EFE8D9913037C94A002B3C89 /* GraphView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE8D9903037C94A002B3C89 /* GraphView.swift */; };
+		EFE8D9933037C94F002B3C89 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE8D9923037C94F002B3C89 /* Assets.xcassets */; };
+		EFE8D9963037C94F002B3C89 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EFE8D9953037C94F002B3C89 /* Preview Assets.xcassets */; };
+		EFE8D9A13037C950002B3C89 /* ArduiMatorNewTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE8D9A03037C950002B3C89 /* ArduiMatorNewTests.swift */; };
+		EFE8D9AB3037C950002B3C89 /* ArduiMatorNewUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE8D9AA3037C950002B3C89 /* ArduiMatorNewUITests.swift */; };
+		EFE8D9AD3037C950002B3C89 /* ArduiMatorNewUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EFE8D9AC3037C950002B3C89 /* ArduiMatorNewUITestsLaunchTests.swift */; };
+		EFE8D9BC3037C971002B3C89 /* CplusplusLogic.cpp in Sources */ = {isa = PBXBuildFile; fileRef = EFE8D9BA3037C971002B3C89 /* CplusplusLogic.cpp */; };
+		EFE8D9BE3037C99D002B3C89 /* ObjectiveCFile.mm in Sources */ = {isa = PBXBuildFile; fileRef = EFE8D9BD3037C99D002B3C89 /* ObjectiveCFile.mm */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EFE8D99D3037C950002B3C89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFE8D9833037C94A002B3C89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFE8D98A3037C94A002B3C89;
+			remoteInfo = ArduiMatorNew;
+		};
+		EFE8D9A73037C950002B3C89 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EFE8D9833037C94A002B3C89 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EFE8D98A3037C94A002B3C89;
+			remoteInfo = ArduiMatorNew;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EF1EE4D7307423E000028D9D /* AnimatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AnimatorView.swift; sourceTree = "<group>"; };
+		EF1EE4DB30742C7A00028D9D /* MasterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterView.swift; sourceTree = "<group>"; };
+		EF2DE6573058BEAA00963715 /* File.metal */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.metal; path = File.metal; sourceTree = "<group>"; };
+		EF2DE6E2305E3FFD00963715 /* ObjectSwitcherView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ObjectSwitcherView.swift; sourceTree = "<group>"; };
+		EF5198413076BC6500E2EECA /* ColorGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ColorGraphView.swift; sourceTree = "<group>"; };
+		EF5198433077212600E2EECA /* LightGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LightGraphView.swift; sourceTree = "<group>"; };
+		EF5198453078339500E2EECA /* CrossSecGraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CrossSecGraphView.swift; sourceTree = "<group>"; };
+		EFAE0D243064C14B00AC6E44 /* MetalBridge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MetalBridge.swift; sourceTree = "<group>"; };
+		EFE8D98B3037C94A002B3C89 /* ArduiMatorNew.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ArduiMatorNew.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE8D98E3037C94A002B3C89 /* ArduiMatorNewApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArduiMatorNewApp.swift; sourceTree = "<group>"; };
+		EFE8D9903037C94A002B3C89 /* GraphView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphView.swift; sourceTree = "<group>"; };
+		EFE8D9923037C94F002B3C89 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EFE8D9953037C94F002B3C89 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		EFE8D9973037C94F002B3C89 /* ArduiMatorNew.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = ArduiMatorNew.entitlements; sourceTree = "<group>"; };
+		EFE8D99C3037C950002B3C89 /* ArduiMatorNewTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArduiMatorNewTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE8D9A03037C950002B3C89 /* ArduiMatorNewTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArduiMatorNewTests.swift; sourceTree = "<group>"; };
+		EFE8D9A63037C950002B3C89 /* ArduiMatorNewUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ArduiMatorNewUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EFE8D9AA3037C950002B3C89 /* ArduiMatorNewUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArduiMatorNewUITests.swift; sourceTree = "<group>"; };
+		EFE8D9AC3037C950002B3C89 /* ArduiMatorNewUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ArduiMatorNewUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		EFE8D9B93037C970002B3C89 /* ArduiMatorNew-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ArduiMatorNew-Bridging-Header.h"; sourceTree = "<group>"; };
+		EFE8D9BA3037C971002B3C89 /* CplusplusLogic.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CplusplusLogic.cpp; sourceTree = "<group>"; };
+		EFE8D9BB3037C971002B3C89 /* CplusplusLogic.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CplusplusLogic.hpp; sourceTree = "<group>"; };
+		EFE8D9BD3037C99D002B3C89 /* ObjectiveCFile.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = ObjectiveCFile.mm; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EFE8D9883037C94A002B3C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE8D9993037C950002B3C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE8D9A33037C950002B3C89 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EFE8D9823037C94A002B3C89 = {
+			isa = PBXGroup;
+			children = (
+				EF5198453078339500E2EECA /* CrossSecGraphView.swift */,
+				EF5198433077212600E2EECA /* LightGraphView.swift */,
+				EF5198413076BC6500E2EECA /* ColorGraphView.swift */,
+				EF1EE4D7307423E000028D9D /* AnimatorView.swift */,
+				EF1EE4DB30742C7A00028D9D /* MasterView.swift */,
+				EFAE0D243064C14B00AC6E44 /* MetalBridge.swift */,
+				EF2DE6573058BEAA00963715 /* File.metal */,
+				EFE8D98D3037C94A002B3C89 /* ArduiMatorNew */,
+				EFE8D99F3037C950002B3C89 /* ArduiMatorNewTests */,
+				EFE8D9A93037C950002B3C89 /* ArduiMatorNewUITests */,
+				EFE8D98C3037C94A002B3C89 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EFE8D98C3037C94A002B3C89 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EFE8D98B3037C94A002B3C89 /* ArduiMatorNew.app */,
+				EFE8D99C3037C950002B3C89 /* ArduiMatorNewTests.xctest */,
+				EFE8D9A63037C950002B3C89 /* ArduiMatorNewUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EFE8D98D3037C94A002B3C89 /* ArduiMatorNew */ = {
+			isa = PBXGroup;
+			children = (
+				EFE8D98E3037C94A002B3C89 /* ArduiMatorNewApp.swift */,
+				EFE8D9903037C94A002B3C89 /* GraphView.swift */,
+				EF2DE6E2305E3FFD00963715 /* ObjectSwitcherView.swift */,
+				EFE8D9BD3037C99D002B3C89 /* ObjectiveCFile.mm */,
+				EFE8D9BA3037C971002B3C89 /* CplusplusLogic.cpp */,
+				EFE8D9BB3037C971002B3C89 /* CplusplusLogic.hpp */,
+				EFE8D9923037C94F002B3C89 /* Assets.xcassets */,
+				EFE8D9973037C94F002B3C89 /* ArduiMatorNew.entitlements */,
+				EFE8D9943037C94F002B3C89 /* Preview Content */,
+				EFE8D9B93037C970002B3C89 /* ArduiMatorNew-Bridging-Header.h */,
+			);
+			path = ArduiMatorNew;
+			sourceTree = "<group>";
+		};
+		EFE8D9943037C94F002B3C89 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				EFE8D9953037C94F002B3C89 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		EFE8D99F3037C950002B3C89 /* ArduiMatorNewTests */ = {
+			isa = PBXGroup;
+			children = (
+				EFE8D9A03037C950002B3C89 /* ArduiMatorNewTests.swift */,
+			);
+			path = ArduiMatorNewTests;
+			sourceTree = "<group>";
+		};
+		EFE8D9A93037C950002B3C89 /* ArduiMatorNewUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EFE8D9AA3037C950002B3C89 /* ArduiMatorNewUITests.swift */,
+				EFE8D9AC3037C950002B3C89 /* ArduiMatorNewUITestsLaunchTests.swift */,
+			);
+			path = ArduiMatorNewUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EFE8D98A3037C94A002B3C89 /* ArduiMatorNew */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE8D9B03037C950002B3C89 /* Build configuration list for PBXNativeTarget "ArduiMatorNew" */;
+			buildPhases = (
+				EFE8D9873037C94A002B3C89 /* Sources */,
+				EFE8D9883037C94A002B3C89 /* Frameworks */,
+				EFE8D9893037C94A002B3C89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ArduiMatorNew;
+			productName = ArduiMatorNew;
+			productReference = EFE8D98B3037C94A002B3C89 /* ArduiMatorNew.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EFE8D99B3037C950002B3C89 /* ArduiMatorNewTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE8D9B33037C950002B3C89 /* Build configuration list for PBXNativeTarget "ArduiMatorNewTests" */;
+			buildPhases = (
+				EFE8D9983037C950002B3C89 /* Sources */,
+				EFE8D9993037C950002B3C89 /* Frameworks */,
+				EFE8D99A3037C950002B3C89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFE8D99E3037C950002B3C89 /* PBXTargetDependency */,
+			);
+			name = ArduiMatorNewTests;
+			productName = ArduiMatorNewTests;
+			productReference = EFE8D99C3037C950002B3C89 /* ArduiMatorNewTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EFE8D9A53037C950002B3C89 /* ArduiMatorNewUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EFE8D9B63037C950002B3C89 /* Build configuration list for PBXNativeTarget "ArduiMatorNewUITests" */;
+			buildPhases = (
+				EFE8D9A23037C950002B3C89 /* Sources */,
+				EFE8D9A33037C950002B3C89 /* Frameworks */,
+				EFE8D9A43037C950002B3C89 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EFE8D9A83037C950002B3C89 /* PBXTargetDependency */,
+			);
+			name = ArduiMatorNewUITests;
+			productName = ArduiMatorNewUITests;
+			productReference = EFE8D9A63037C950002B3C89 /* ArduiMatorNewUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EFE8D9833037C94A002B3C89 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1420;
+				LastUpgradeCheck = 1420;
+				TargetAttributes = {
+					EFE8D98A3037C94A002B3C89 = {
+						CreatedOnToolsVersion = 14.2;
+						LastSwiftMigration = 1420;
+					};
+					EFE8D99B3037C950002B3C89 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EFE8D98A3037C94A002B3C89;
+					};
+					EFE8D9A53037C950002B3C89 = {
+						CreatedOnToolsVersion = 14.2;
+						TestTargetID = EFE8D98A3037C94A002B3C89;
+					};
+				};
+			};
+			buildConfigurationList = EFE8D9863037C94A002B3C89 /* Build configuration list for PBXProject "ArduiMatorNew" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EFE8D9823037C94A002B3C89;
+			productRefGroup = EFE8D98C3037C94A002B3C89 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EFE8D98A3037C94A002B3C89 /* ArduiMatorNew */,
+				EFE8D99B3037C950002B3C89 /* ArduiMatorNewTests */,
+				EFE8D9A53037C950002B3C89 /* ArduiMatorNewUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EFE8D9893037C94A002B3C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE8D9963037C94F002B3C89 /* Preview Assets.xcassets in Resources */,
+				EFE8D9933037C94F002B3C89 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE8D99A3037C950002B3C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE8D9A43037C950002B3C89 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EFE8D9873037C94A002B3C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EF2DE6E3305E3FFD00963715 /* ObjectSwitcherView.swift in Sources */,
+				EF5198443077212600E2EECA /* LightGraphView.swift in Sources */,
+				EF2DE6583058BEAA00963715 /* File.metal in Sources */,
+				EFAE0D253064C14B00AC6E44 /* MetalBridge.swift in Sources */,
+				EF1EE4DC30742C7A00028D9D /* MasterView.swift in Sources */,
+				EF1EE4D8307423E000028D9D /* AnimatorView.swift in Sources */,
+				EFE8D9BC3037C971002B3C89 /* CplusplusLogic.cpp in Sources */,
+				EFE8D9BE3037C99D002B3C89 /* ObjectiveCFile.mm in Sources */,
+				EF5198463078339500E2EECA /* CrossSecGraphView.swift in Sources */,
+				EFE8D9913037C94A002B3C89 /* GraphView.swift in Sources */,
+				EFE8D98F3037C94A002B3C89 /* ArduiMatorNewApp.swift in Sources */,
+				EF5198423076BC6500E2EECA /* ColorGraphView.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE8D9983037C950002B3C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE8D9A13037C950002B3C89 /* ArduiMatorNewTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EFE8D9A23037C950002B3C89 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EFE8D9AB3037C950002B3C89 /* ArduiMatorNewUITests.swift in Sources */,
+				EFE8D9AD3037C950002B3C89 /* ArduiMatorNewUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EFE8D99E3037C950002B3C89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFE8D98A3037C94A002B3C89 /* ArduiMatorNew */;
+			targetProxy = EFE8D99D3037C950002B3C89 /* PBXContainerItemProxy */;
+		};
+		EFE8D9A83037C950002B3C89 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EFE8D98A3037C94A002B3C89 /* ArduiMatorNew */;
+			targetProxy = EFE8D9A73037C950002B3C89 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EFE8D9AE3037C950002B3C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EFE8D9AF3037C950002B3C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = macosx;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+			};
+			name = Release;
+		};
+		EFE8D9B13037C950002B3C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ArduiMatorNew/ArduiMatorNew.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ArduiMatorNew/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.7.6;
+				MARKETING_VERSION = 1.0;
+				MTL_LANGUAGE_REVISION = UseDeploymentTarget;
+				PRODUCT_BUNDLE_IDENTIFIER = RexTheDinoINC.ArduiMatorNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ArduiMatorNew/ArduiMatorNew-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+		EFE8D9B23037C950002B3C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CLANG_ENABLE_MODULES = YES;
+				CODE_SIGN_ENTITLEMENTS = ArduiMatorNew/ArduiMatorNew.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"ArduiMatorNew/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				MACOSX_DEPLOYMENT_TARGET = 12.7.6;
+				MARKETING_VERSION = 1.0;
+				MTL_LANGUAGE_REVISION = UseDeploymentTarget;
+				PRODUCT_BUNDLE_IDENTIFIER = RexTheDinoINC.ArduiMatorNew;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_OBJC_BRIDGING_HEADER = "ArduiMatorNew/ArduiMatorNew-Bridging-Header.h";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Release;
+		};
+		EFE8D9B43037C950002B3C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RexTheDinoINC.ArduiMatorNewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArduiMatorNew.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ArduiMatorNew";
+			};
+			name = Debug;
+		};
+		EFE8D9B53037C950002B3C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 12.7;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RexTheDinoINC.ArduiMatorNewTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ArduiMatorNew.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/ArduiMatorNew";
+			};
+			name = Release;
+		};
+		EFE8D9B73037C950002B3C89 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RexTheDinoINC.ArduiMatorNewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ArduiMatorNew;
+			};
+			name = Debug;
+		};
+		EFE8D9B83037C950002B3C89 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = RexTheDinoINC.ArduiMatorNewUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TEST_TARGET_NAME = ArduiMatorNew;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EFE8D9863037C94A002B3C89 /* Build configuration list for PBXProject "ArduiMatorNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE8D9AE3037C950002B3C89 /* Debug */,
+				EFE8D9AF3037C950002B3C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFE8D9B03037C950002B3C89 /* Build configuration list for PBXNativeTarget "ArduiMatorNew" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE8D9B13037C950002B3C89 /* Debug */,
+				EFE8D9B23037C950002B3C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFE8D9B33037C950002B3C89 /* Build configuration list for PBXNativeTarget "ArduiMatorNewTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE8D9B43037C950002B3C89 /* Debug */,
+				EFE8D9B53037C950002B3C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EFE8D9B63037C950002B3C89 /* Build configuration list for PBXNativeTarget "ArduiMatorNewUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EFE8D9B73037C950002B3C89 /* Debug */,
+				EFE8D9B83037C950002B3C89 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EFE8D9833037C94A002B3C89 /* Project object */;
+}
