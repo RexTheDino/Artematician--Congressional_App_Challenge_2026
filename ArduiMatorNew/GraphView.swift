@@ -206,7 +206,7 @@ struct GraphView: View {
              }
              
              
-             HStack{
+             HStack{ 
              Form{
                  
              Section{
